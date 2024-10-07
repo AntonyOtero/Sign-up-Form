@@ -3,8 +3,73 @@
     src: url(./fonts/Norse-Bold.otf);
 }
 
+body {
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 h1 {
     font-family: 'Norse Bold', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.cover {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    background-image: url("./images/halie-west-25xggax4bSA-unsplash.jpg");
+    background-size: cover;
+}
+
+.banner {
+    margin-top: 224px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 13px 0;
+    background: rgba(0,0,0,0.5);
+}
+
+.banner img {
+    width: 97px;
+}
+
+.banner .title {
+    margin: 0;
+    padding-top: 13px;
+    font-size: 85px;
+}
+
+.footer {
+    text-align: center;
+}
+
+.credit {
+    margin: 13px 0;
+}
+
+.credit a {
+    color: inherit;
+}
+
+.content {
+    flex: 2;
+}
+
+.btn {
+    width: 235px;
+    height: 50px;
+    color: white;
+    font-weight: bold;
+    background: #596D48;
+    border: none;
+    border-radius: 5px;
 }
 
 .debug {
