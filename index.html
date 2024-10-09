@@ -20,47 +20,50 @@
             </div>
         </div>
         <div class="content">
-            <div class="copy">
+            <div class="copy text-lg">
                 <p>
                     This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.<br/>
-                    Sign up now to <em>now</em> to get started.
+                    Sign up <em>now</em> to get started.
                 </p>
                 <p>
                     You <em>know</em> you want to.
                 </p>
             </div>
             <form action="" method="post">
-                <fieldset>
-                    <legend>Let's Do this!</legend>
-                    <div>
-                        <p>
-                            <label for="first-name">First Name</label>
-                            <input type="text" name="first-name" id="first-name">
-                        </p>
-                        <p>
-                            <label for="email">email</label>
-                            <input type="email" name="email" id="email">
-                        </p>
-                        <p>
-                            <label for="password">Password</label>
-                            <input type="password" name="password" id="password">
-                        </p>
+                <div class="form-container">
+
+                    <legend class="text-lg">Let's do this!</legend>
+                    <div class="form-row">
+                        <div class="form-col">
+                            <p>
+                                <label for="first-name">First Name</label>
+                                <input type="text" name="first-name" id="first-name" placeholder="Thor">
+                            </p>
+                            <p>
+                                <label for="email">Email</label>
+                                <input type="email" name="email" id="email" placeholder="thorodinson@hermesmail.com">
+                            </p>
+                            <p>
+                                <label for="password">Password</label>
+                                <input type="password" name="password" id="password" placeholder="********" minlength="8" required>
+                            </p>
+                        </div>
+                        <div class="form-col">
+                            <p>
+                                <label for="last-name">Last Name</label>
+                                <input type="text" name="last-name" id="last-name" placeholder="Odinson">
+                            </p>
+                            <p>
+                                <label for="phone-number">Phone Number</label>
+                                <input type="tel" name="phone-number" id="phone-number" placeholder="(123) 456-4747">
+                            </p>
+                            <p>
+                                <label for="confirm-password">Confirm Password</label>
+                                <input type="password" name="confirm-password" id="confirm-password" placeholder="********" minlength="8" required>
+                            </p>
+                        </div>
                     </div>
-                    <div>
-                        <p>
-                            <label for="last-name">Last Name</label>
-                            <input type="text" name="last-name" id="last-name">
-                        </p>
-                        <p>
-                            <label for="phone-number">Phone Number</label>
-                            <input type="tel" name="phone-number" id="phone-number">
-                        </p>
-                        <p>
-                            <label for="confirm-password">Confirm Password</label>
-                            <input type="password" name="confirm-password" id="confirm-password">
-                        </p>
-                    </div>
-                </fieldset>
+                </div>
                 <button class="btn" type="submit">Create Account</button>
             </form>
             <p>
