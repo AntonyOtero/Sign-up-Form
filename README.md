@@ -3,7 +3,7 @@
 > # Sign-up-Form
 A sign-up form for an imaginary service. This a project from the intermediate HTML &amp; CSS course in [The Odin Project](https://www.theodinproject.com/).
 
-![screenshot](./images/app-screenshot.png)
+![screenshot](./images/screenshot.png)
 
 ## Built With
 
